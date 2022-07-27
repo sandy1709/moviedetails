@@ -1,0 +1,74 @@
+.mainArea {
+  display: flex;
+  flex-direction: column;
+  /* background-color: silver; */
+}
+
+.headCSS {
+  text-align: center;
+  height: 37%;
+  width: 100%;
+  color: teal;
+}
+
+.mainBody {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* background-color: blanchedalmond; */
+  height: 100%;
+}
+
+.col1,
+.col2,
+.col3 {
+  width: 30%;
+  height: 60%;
+  text-align: center;
+  color: blueviolet;
+}
+
+img {
+  width: 145px;
+  height: 145px;
+  position: relative;
+  transition: transform 0.1s;
+}
+img:hover {
+  cursor:pointer;
+  transform: scale(0.9);
+}
+
+.moviepresentation {
+  display: flex;
+  flex: content;
+  flex-direction: row;
+  color: black;
+  text-align: left;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.favbutton {
+  width:100%;
+  background-color: lightgreen
+}
+
+.unfavbutton {
+  width:100%;
+  background-color: white;
+}
+
+.poster {
+  width:40%;
+}
+.moviedetails {
+  text-align: left;
+  width: 55%;
+}
+
+button {
+  border-radius: 10px;
+  background-color: #AB8ECD;
+  cursor:pointer;
+}

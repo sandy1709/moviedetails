@@ -1,0 +1,63 @@
+.mainSection {
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-between;
+}
+
+.movBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+}
+.movPoster {
+    width: 37%;
+}
+
+.movNav {
+    text-align: center;
+    height: 50px;
+}
+
+.Detailedimg {
+    width: 400px;
+    height:400px;
+}
+
+.movDetails {
+    width:50%;
+    height: 400px;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+.movfavbutton {
+    width:400px;
+    background-color: lightgreen
+  }
+  
+.imdbbutton {
+    color: black;
+    background-color: yellow;
+    text-decoration: solid;
+    font-size: 15px;
+    font-style: ubuntu;
+}
+.movunfavbutton {
+    width:100%;
+    background-color: white;
+  }
+
+.movNav {
+    display: flex;
+    justify-content: space-between;
+    text-align:end;
+  }
+
+  .logo {
+    color:forestgreen;
+    text-align:start;
+    font-size: 20px;
+  }
